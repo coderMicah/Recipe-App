@@ -72,11 +72,11 @@ export default async function RecipePage({
 
       <h2 className="mt-6">Recipe Summary</h2>
       <div className="flex flex-wrap gap-4 my-6">
-        {/* {recipe.dishTypes.map((dish) => (
+        {recipe.dishTypes.map((dish) => (
           <Badge key={dish}>
             {dish}
           </Badge>
-        ))} */}
+        ))}
       </div>
       <p
         className="text-lg leading-7 [&:not(:first-child)]:mt-6"
